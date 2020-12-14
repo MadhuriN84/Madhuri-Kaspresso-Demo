@@ -18,6 +18,7 @@ import org.junit.runner.RunWith
 /**
  * Created by Madhuri on 2020-12-13
  */
+
 @RunWith(AndroidJUnit4::class)
 class PerfectKaspressoTest : TestCase() {
 
@@ -60,9 +61,9 @@ class PerfectKaspressoTest : TestCase() {
             }
 
             scenario(TypeTextAndCheckTitleScenario("1"))
-            scenario(TypeTextAndCheckTitleScenario(" "))
             scenario(TypeTextAndCheckTitleScenario("Kaspresso"))
-            scenario(TypeTextAndCheckTitleScenario(""))
+            scenario(TypeTextAndCheckTitleScenario("Madhuri"))
+
         }
     }
 
